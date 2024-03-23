@@ -1,0 +1,116 @@
+.ant-form-item {
+  .ant-form-item-row {
+    position: relative;
+    .ant-form-item-label {
+      position: absolute;
+      top: -10px;
+      z-index: 10;
+      left: 8px;
+      padding: 0;
+      line-height: 1.2;
+      background-color: #ffff;
+      label {
+        font-size: 15px !important;
+        font-weight: 500;
+        padding: 0 5px;
+        text-transform: capitalize;
+        &::before,
+        &::after {
+          display: none;
+        }
+      }
+      .ant-form-item-required {
+        &::before {
+          display: none !important;
+        }
+        &::after {
+          visibility: visible !important;
+          display: inline-block;
+          margin-inline-end: -2px;
+          color: #ff4d4f;
+          font-size: 11pt;
+          font-family: inherit;
+          line-height: 1;
+          content: "*";
+          padding-top: 2px;
+        }
+      }
+    }
+  }
+  .ant-form-item-explain-error {
+    padding-bottom: 18px;
+  }
+}
+.status-select .ant-form-item-label {
+  padding: 10px 0 0 !important;
+}
+
+.ant-input, .ant-input-password, .ant-picker {
+  padding: 8px 10px 8px 13px;
+}
+.ant-input,
+.ant-input-number,
+.ant-picker,
+.ant-input-password {
+  //font-size: 10pt !important;
+  //min-height: 35px;
+  width: -webkit-fill-available !important;
+}
+.ant-picker {
+  min-height: 38px !important;
+}
+input {
+  height: auto !important;
+}
+.custom-input-search {
+  .ant-input {
+    min-height: 30px;
+  }
+  .ant-input-search {
+    .ant-input-affix-wrapper,
+    .ant-input-search-button {
+      min-height: 40px;
+      .anticon-search {
+        font-size: 18px;
+        margin-top: 4px;
+      }
+    }
+  }
+}
+
+textarea {
+	padding-top: 6px !important;
+}
+
+.ant-switch {
+	background: rgba(0, 0, 0, 0.25) !important;
+}
+.ant-switch.ant-switch-checked {
+	background-color: rgb(22, 119, 255) !important;
+}
+
+.ant-select-arrow {
+	top: 65% !important;
+}
+
+
+.custom-time-zone-select {
+	.ant-form-item-label {
+		top: -4px !important;
+		z-index: 100 !important;
+	}
+}
+
+
+.conf-value-input {
+  .ant-form-item-explain-error {
+    padding-bottom: 0 !important;
+  }
+}
+
+.ant-input-disabled, .ant-input[disabled], .ant-select-disabled {
+  color: $black !important;
+  .ant-select-selection-item {
+    color: $black !important;
+  }
+}

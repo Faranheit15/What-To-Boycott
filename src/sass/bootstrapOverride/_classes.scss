@@ -1,0 +1,87 @@
+.was-validated .form-check-input:valid:checked, .form-check-input.is-valid:checked {
+	background-color: $blue-400 !important;
+}
+
+// .form-check-input {
+// 	border-color: #00000040 !important;
+// 	margin-top: 5pt;
+
+// }
+
+// focus
+.btn, .btn-close, .form-check-input {
+	font-size: 10pt;
+	&:focus {
+		outline: none !important;
+		box-shadow: none !important;
+		border-color: none !important;
+	}
+}
+// .form-control, .form-select {
+// 	font-size: 10pt;
+// 	&:focus {
+// 		outline: none;
+// 		box-shadow: none;
+// 		border: 2px solid $blue-400;
+// 	}
+// }
+
+// form-floating
+// .form-floating {
+// 	>label {
+// 		z-index: initial;
+// 		margin-bottom: 0;
+// 		width: auto;
+//     height: 22px;
+// 		top: 0;
+// 		padding: 0 4px;
+// 		transform: scale(0.90) translateY(.5rem) translateX(0.55rem);
+// 	}
+// }
+// .form-floating > .form-control:focus ~ label, .form-floating > .form-control:not(:placeholder-shown) ~ label, .form-floating > .form-control-plaintext ~ label, .form-floating > .form-select ~ label {
+// 	background: $white;
+// }
+// .form-label {
+// 	margin-bottom: 0;
+// }
+
+// .btn-close {
+// 	width: 8px;
+// 	height: 8px;
+// }
+
+// .invalid-feedback {
+// 	margin-top: 0;
+// 	font-size: 10pt !important;
+// }
+
+.btn-primary {
+	font-size: 9pt;
+	background-color: $blue-400;
+	&:hover {
+		background-color: $blue-600 !important;
+	}
+}
+.btn-secondary {
+	color: $white;
+	background-color: $blue-900;
+	font-size: 9pt;
+	&:hover {
+		color: $black;
+		background-color: $blue-200 !important;
+	}
+}
+.btn-info {
+	color: $white;
+	background-color: #304767;
+	font-size: 9pt;
+	border-color: #304767;
+	&:hover {
+		color: $black;
+		background-color: $blue-200 !important;
+	}
+}
+
+.card {
+	//box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}

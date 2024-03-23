@@ -1,0 +1,73 @@
+// .w-10 {
+// 	width: 10%;
+// }
+// .w-15 {
+// 	width: 15%;
+// }
+// .w-20 {
+// 	width: 20%;
+// }
+// .w-25 {
+// 	width: 25%;
+// }
+// .w-30 {
+// 	width: 30%;
+// }
+// .w-35 {
+// 	width: 35%;
+// }
+// .w-40 {
+// 	width: 40%;
+// }
+// .w-45 {
+// 	width: 45%;
+// }
+// .w-55 {
+// 	width: 55%;
+// }
+// .w-60 {
+// 	width: 60%;
+// }
+// .w-65 {
+// 	width: 65%;
+// }
+// .w-70 {
+// 	width: 70%;
+// }
+// .w-75 {
+// 	width: 75%;
+// }
+
+// .w-100 {
+// 	width: 100%;
+// }
+// .text-sm {
+// 	font-size: 8pt;
+// }
+
+// .text-md {
+// 	font-size: 9pt;
+// }
+// .text-lg {
+// 	font-size: 10pt;
+// }
+// .text-xl {
+// 	font-size: 11pt;
+// }
+
+// .text-xxl {
+// 	font-size: 12pt;
+// }
+
+// .capital {
+// 	text-transform: capitalize;
+// }
+
+.required {
+	&::after {
+		position: initial !important;
+		content: " *" !important;
+		color: red;
+		font-weight: 600;
+	}
+}
