@@ -22,7 +22,6 @@ This project aims to provide information about ethical alternatives to specific 
 5. [Recommended Brands](#recommended-brands)
 6. [How You Can Help](#how-you-can-help)
 7. [Contributing](#contributing)
-8. [License](#license)
 
 ## Introduction
 
@@ -72,10 +71,6 @@ For products where few brands meet our ethical standards, consider these recomme
 ## Contributing
 
 We welcome contributions! If you have additional ethical alternatives or insights, feel free to submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
