@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Form } from "antd";
 import Input from "@/components/Input";
 import Button from "@/components/Button";
@@ -5,9 +6,11 @@ import Button from "@/components/Button";
 const Search = () => {
   const [form] = Form.useForm();
 
+  const [searchText, setSearchText] = useState("");
   const handleSubmit = () => {
     form.validateFields().then((res) => {
       console.log(res);
+      setSearchText(res.search);
     });
   };
 
@@ -33,6 +36,11 @@ const Search = () => {
           </div>
         </div>
       </Form>
+      {searchText != "" && (
+        <h1 className="mt-4 text-xl">
+          Showing results for <div className="font-bold">{searchText}:</div>
+        </h1>
+      )}
     </>
   );
 };
